@@ -20,14 +20,9 @@ h1,h2{
 
 
 h2{
-  color: #4aaaa5;
+  color:black;
   padding-bottom: 4px;
 }
-
-
-
-
-
 
 
 .logo{
@@ -119,7 +114,7 @@ h2{
 .article{
   width: 56em;
   position: relative;
-    left: 93px;
+    left: 18px;
     top: 80px;
 }
 
@@ -173,17 +168,22 @@ padding: 10px;
  
 
 }
-.contact-content{
+.contact-container{
+  height: 607px;
   border-top: 1px solid rgb(231, 217, 217);
   /* height: 360px;
     background-color: #ffffff;
     margin: auto; */
 }
-.container{
+.container,.container1{
   width: 90%;
   position: absolute;
   left: 109px;
+  
 
+}
+.container1{
+  color: white;
 }
 .form-content{
   width: 41%;
@@ -211,15 +211,23 @@ input#email,input#name{
 margin-bottom: 5px;
 
 }
-
-.button-contact{
-  width: 50%;
-  background-color: teal;
+.download-button{
+  background-color: blue;
   border: 0;
- 
-  padding: 8px;
+  padding: 14px;
   margin-top: 5px;
   color: white;
+  border-radius: 30px;
+  width: 18%;
+}
+.button-contact{
+  width: 100%;
+  background-color: blue;
+  border: 0;
+  padding: 15px;
+  margin-top: 5px;
+  color: white;
+  border-radius: 30px;
 }
 
 footer{
@@ -228,7 +236,7 @@ footer{
   color: white;
   position: absolute;
   /* bottom: -19px; */
-  top: 1887px;
+  top: 1880px;
   width: 100%;
 }
 
