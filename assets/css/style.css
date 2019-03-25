@@ -22,6 +22,9 @@ h1,h2{
 h2{
   color:black;
   padding-bottom: 4px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 
@@ -67,7 +70,8 @@ h2{
 .gallery-container{
   /* width: 960px; */
   height:500px;
-  border-top: 1px solid rgb(231, 217, 217);
+  border-top: 1px solid rgba(231, 217, 217, 0.57);
+  background-color: #948e8e0a;
 }
 
 
@@ -75,6 +79,14 @@ h2{
 .photo{
   height: 250px;
   width: 250Px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  transition: .5s ease;
+}
+
+.photo:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 
@@ -88,28 +100,37 @@ h2{
 
 
 
-  .test{
+  .gallery-image{
     position: relative;
     display: inline-block;
     padding: 10px;
     left: 117px;
+    
 }
   
 
 .image-banner{
   position: absolute;
-  background:blue;
-  color: #ffffff;
-  width: 84.3%;
-  height: 50px;
-  bottom: 0;
-  top: 145px;
-  padding: 20px;
-  font-size: 25px;
-  text-align: center;
-
+    background:#111315;;
+    color: #ffffff;
+    width: 233px;
+    height: 83px;
+    bottom: 0;
+    top: 145px;
+    right: 19px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
   
 }
+
+
+.gallery-image:hover .image-banner{
+  opacity: .8;
+}
+
 
 .article{
   width: 56em;
@@ -162,14 +183,14 @@ padding: 10px;
 }
 .main-content, .contact-content{
   /* width: 960px; */
-  height: 360px;
+  height: 438px;
   background-color: #ffffff;
   margin: auto;
  
 
 }
 .contact-container{
-  height: 607px;
+  height: 620px;
   border-top: 1px solid rgb(231, 217, 217);
   /* height: 360px;
     background-color: #ffffff;
@@ -212,22 +233,30 @@ margin-bottom: 5px;
 
 }
 .download-button{
-  background-color: blue;
+  background-image: linear-gradient(to right, rgba(255,0,0,0.2), rgb(36, 7, 117));
+  /* background-color: blue; */
   border: 0;
   padding: 14px;
-  margin-top: 5px;
+  margin-top: 26px;
   color: white;
   border-radius: 30px;
   width: 18%;
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 .button-contact{
   width: 100%;
-  background-color: blue;
+  background-image: linear-gradient(to right, rgba(255,0,0,0.2), rgb(43, 0, 160));
+  /* background-color: blue; */
   border: 0;
   padding: 15px;
   margin-top: 5px;
   color: white;
   border-radius: 30px;
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 footer{
@@ -236,7 +265,7 @@ footer{
   color: white;
   position: absolute;
   /* bottom: -19px; */
-  top: 1880px;
+  top: 1973px;
   width: 100%;
 }
 
