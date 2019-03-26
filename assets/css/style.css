@@ -323,6 +323,9 @@ footer{
     left: 31px;
   
 }
+.container, .container1 {
+  width: 85%;
+}
 .intro-text {
   right: 23px;
   bottom: 207px;
@@ -330,12 +333,26 @@ footer{
 .article {
   width: 32em;
 }
+.portfolio-title {
+  left: 73px;
+}
+.nav-link {
+  left:0; 
+}
 
+.container1 {
+  left: 73px;
+}
+.info {
+  width: 50%;
+  left: 53px;
+}
 .form-content {
   width: 71%;
-  left: 0%;
+  left: 8%;
   top: 264px;
 }
+
 .contact-container {
   height: 730px;
 }
