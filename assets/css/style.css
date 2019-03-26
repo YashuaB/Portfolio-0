@@ -12,7 +12,7 @@ body{
   font-size: 18px;
   line-height: 150%;
   max-width: 1366px;
-  overflow-x: hidden;
+ 
   
 }
 
@@ -173,7 +173,7 @@ padding: 10px;
 }
 .intro-container{
   height: 450px;
-  background-color: blue;
+  
 }
 .intro-text{
   position: absolute;
@@ -344,6 +344,9 @@ footer{
   .intro-text {
     left: 368px
   }
+  .article{
+    width: 30em;
+  }
   .nav-link {
     
     left:0; 
@@ -354,5 +357,18 @@ footer{
 .profile-picture {
   bottom: 191px;
  
+}
+.portfolio-title {
+  left: 19px;
+}
+
+.container, .container1 {
+  width: 90%;
+  position: absolute;
+  left: 10px;
+}
+
+.gallery-image {
+  left: 0;
 }
 }
