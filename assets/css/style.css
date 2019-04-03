@@ -86,7 +86,7 @@ nav{
 
 .gallery-container{
   /* width: 960px; */
-  height:500px;
+  height:730px;
   border-top: 1px solid rgba(231, 217, 217, 0.57);
   background-color: #948e8e0a;
 }
@@ -287,7 +287,7 @@ footer{
   color: white;
   position: absolute;
   /* bottom: -19px; */
-  top: 1973px;
+  top: 2209px;
   width: 100%;
 }
 
