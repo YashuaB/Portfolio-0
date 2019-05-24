@@ -14,6 +14,14 @@ $(document).ready(function(){
   // }, {
   //   offset: '25%'
   // })
+  $(".under").click(function () {
+    $(".modal").css({ display: "block" })
+  })
+ 
+
+  $(".close").click(function () {
+    $(".modal").css({ display: "none" })
+  })
 })
 
 
